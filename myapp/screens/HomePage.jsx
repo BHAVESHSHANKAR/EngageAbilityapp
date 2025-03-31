@@ -136,6 +136,23 @@ const styles = StyleSheet.create({
         color: '#2c3e50',
         marginBottom: 5,
     },
+    footer: {
+        flexDirection: 'row',
+        justifyContent: 'space-around',
+        alignItems: 'center',
+        backgroundColor: '#2b5876',
+        paddingVertical: 10,
+        width: '100%',
+    },
+    footerLink: {
+        color: '#fff',
+        fontSize: 16,
+        fontWeight: 'bold',
+    },
+    footerIcon: {
+        color: '#fff',
+        fontSize: 16,
+    },
 });
 
 export default HomePage;
