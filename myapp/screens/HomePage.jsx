@@ -46,6 +46,10 @@ const HomePage = () => {
                         ))}
                     </View>
                 </View>
+                <View style={styles.footer}>
+                    <Text style={styles.footerLink}>About This Platform</Text>
+                    <Text style={styles.footerIcon}>LinkedIn</Text>
+                </View>
             </ScrollView>
         </View>
     );
